@@ -1,6 +1,6 @@
-# TP Pentaho PDI : Installation, Prise en Main et Application OLTP → OLAP
+# projet_etl_dw_pentaho_olap : Installation, Prise en Main et Application OLTP → OLAP
 
-## Objectifs du TP
+## Objectifs du projet
 - Installer et configurer Pentaho PDI (Spoon)
 - Découvrir les étapes principales et les hops
 - Réaliser une data pipeline complète : nettoyage de données, agrégations, construction d'un schéma en étoile
@@ -21,10 +21,7 @@
 - `/ktr/`  : transformations PDI pour chaque TP (`.ktr`)
   - TP1 : installation et transformation de base (Hello)
   - TP2 : nettoyage enrichi, agrégations et gestion d’erreurs
-  - TP3 : création des dimensions/faits pour le schéma étoile
-- `/kjb/`  : job d'orchestration (`.kjb`)
 - `/schema/` : captures d’écran des schémas de hops par TP
-- `/sql/` : scripts SQL de création des tables et requêtes de validation OLAP
 - `rapport.pdf` : rapport final détaillant toutes les étapes, difficultés et solutions
 
 ## Instructions pour exécuter le TP
